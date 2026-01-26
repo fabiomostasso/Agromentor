@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo-circle.png";
+import logo from "@/assets/logo-transparent.png";
 import heroBackground from "@/assets/hero-background.jpg";
 
 const HeroSection = () => {
