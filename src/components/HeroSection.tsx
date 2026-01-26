@@ -62,7 +62,7 @@ const HeroSection = () => {
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
               <Button variant="premium" size="xl" asChild>
-                <a href="#fundamentos">Quero me tornar um consultor</a>
+                <a href="#cta">Quero me tornar um consultor</a>
               </Button>
               <Button variant="goldOutline" size="xl" asChild>
                 <a href="#metodo">Conheça o Método</a>
