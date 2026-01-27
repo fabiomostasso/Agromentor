@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Award, Briefcase, Users, TrendingUp } from "lucide-react";
+import mentorPhoto from "@/assets/mentor-photo.jpg";
 
 const highlights = [
   { icon: Award, text: "Mais de 30 anos no agronegócio" },
@@ -40,14 +41,12 @@ const AboutSection = () => {
               className="lg:col-span-2 flex justify-center"
             >
               <div className="relative">
-                <div className="w-64 h-64 lg:w-72 lg:h-72 rounded-2xl bg-forest-deep border-2 border-gold/30 flex items-center justify-center overflow-hidden">
-                  <div className="text-center p-6">
-                    <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-gold-gradient flex items-center justify-center">
-                      <span className="text-4xl font-serif font-bold text-forest-deep">FM</span>
-                    </div>
-                    <p className="text-xl font-serif text-gold font-bold">Fábio Mostasso</p>
-                    <p className="text-sm text-cream-muted mt-1">Engenheiro Agrônomo</p>
-                  </div>
+                <div className="w-64 h-64 lg:w-72 lg:h-72 rounded-2xl border-2 border-gold/30 overflow-hidden shadow-2xl">
+                  <img 
+                    src={mentorPhoto} 
+                    alt="Fábio Mostasso - Engenheiro Agrônomo" 
+                    className="w-full h-full object-cover object-top"
+                  />
                 </div>
                 {/* Golden accent */}
                 <div className="absolute -bottom-3 -right-3 w-full h-full rounded-2xl border-2 border-gold/20 -z-10" />
