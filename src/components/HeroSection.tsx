@@ -14,24 +14,25 @@ const HeroSection = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-forest-deep/95 via-forest-deep/80 to-forest-deep/70" />
       </div>
 
+      {/* Logo at Top - Full Width */}
+      <motion.div
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="relative z-10 w-full mb-8"
+      >
+        <div className="relative w-full">
+          <div className="absolute inset-0 bg-gold/10 blur-3xl animate-pulse" />
+          <img 
+            src={logo} 
+            alt="AgroMentor" 
+            className="relative w-full h-auto max-h-[30vh] object-contain drop-shadow-2xl animate-float"
+          />
+        </div>
+      </motion.div>
+
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 py-12 lg:py-20">
-        {/* Logo at Top */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8 }}
-          className="flex justify-center mb-12"
-        >
-          <div className="relative">
-            <div className="absolute inset-0 bg-gold/20 rounded-full blur-3xl animate-pulse" />
-            <img 
-              src={logo} 
-              alt="AgroMentor" 
-              className="relative w-48 md:w-64 lg:w-72 drop-shadow-2xl animate-float"
-            />
-          </div>
-        </motion.div>
 
         {/* Text Content */}
         <motion.div
