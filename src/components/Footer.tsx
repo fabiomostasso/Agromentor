@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col items-center text-center">
           {/* Logo */}
-          <img src={logo} alt="AgroMentor" className="h-20 mb-6" />
+          <img src={logo} alt="AgroMentor" className="h-60 mb-6" />
           
           {/* Tagline */}
           <p className="text-cream-muted max-w-xl font-serif italic mb-6">
