@@ -28,7 +28,7 @@ const HeroSection = () => {
             <img 
               src={logo} 
               alt="AgroMentor" 
-              className="relative w-48 md:w-64 lg:w-72 drop-shadow-2xl animate-float"
+              className="relative w-[36rem] md:w-[48rem] lg:w-[54rem] drop-shadow-2xl animate-float"
             />
           </div>
         </motion.div>
