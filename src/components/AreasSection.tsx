@@ -14,24 +14,6 @@ const areas = [
     title: "Manejo Integrado de Pragas",
     description: "Desenvolva estratégias de controle eficientes, sustentáveis e economicamente viáveis.",
   },
-  {
-    number: "3",
-    icon: FlaskConical,
-    title: "Fitossanidade",
-    description: "Identifique e trate doenças com precisão, protegendo a lavoura e o investimento do cliente.",
-  },
-  {
-    number: "4",
-    icon: Droplets,
-    title: "Irrigação e Manejo Hídrico",
-    description: "Otimize o uso da água para garantir eficiência e sustentabilidade na produção.",
-  },
-  {
-    number: "5",
-    icon: Mountain,
-    title: "Manejo de Solo",
-    description: "Construa solos saudáveis e produtivos como base para resultados consistentes.",
-  },
 ];
 
 const AreasSection = () => {
