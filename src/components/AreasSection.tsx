@@ -49,7 +49,7 @@ const AreasSection = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-cream mb-4">
-            Áreas de <span className="text-gradient-gold">Atuação</span>
+            Estrutura do <span className="text-gradient-gold">Programa AgroMentor</span>
           </h2>
           <p className="text-lg text-cream-muted max-w-2xl mx-auto mt-4">
             Especialize-se nas principais áreas técnicas do agronegócio com visão consultiva:
