@@ -6,7 +6,7 @@ const areas = [
     number: "1",
     icon: Leaf,
     title: "AgroMentor PROFESSIONAL",
-    description: "Domine a arte de diagnosticar e recomendar soluções nutricionais que maximizam a produtividade.",
+    description: "Voltado ao desenvolvimento individual do profissional das Ciências Agrárias. Formatos de entrega: Mentoria em grupo, Mentoria mista (grupo + encontros individuais), Mentoria individual premium. Os formatos são definidos conforme o estágio profissional e os objetivos do participante.",
   },
   {
     number: "2",
