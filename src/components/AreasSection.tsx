@@ -52,7 +52,7 @@ const AreasSection = () => {
             Estrutura do <span className="text-gradient-gold">Programa AgroMentor</span>
           </h2>
           <p className="text-lg text-cream-muted max-w-2xl mx-auto mt-4">
-            Especialize-se nas principais áreas técnicas do agronegócio com visão consultiva:
+            O AgroMentor é dividido em duas grandes áreas:
           </p>
           <div className="section-divider mt-8" />
         </motion.div>
