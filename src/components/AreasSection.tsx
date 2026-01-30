@@ -5,13 +5,13 @@ const areas = [
   {
     number: "1",
     icon: Leaf,
-    title: "Nutrição de Plantas",
+    title: "AgroMentor PROFESSIONAL",
     description: "Domine a arte de diagnosticar e recomendar soluções nutricionais que maximizam a produtividade.",
   },
   {
     number: "2",
     icon: Bug,
-    title: "Manejo Integrado de Pragas",
+    title: "AgroMentor BUSINESS",
     description: "Desenvolva estratégias de controle eficientes, sustentáveis e economicamente viáveis.",
   },
 ];
@@ -62,7 +62,7 @@ const AreasSection = () => {
               </div>
 
               {/* Content */}
-              <h3 className="text-xl font-serif font-bold text-cream mb-3">
+              <h3 className="text-xl font-serif font-bold text-gold mb-3">
                 {area.title}
               </h3>
               <p className="text-cream-muted leading-relaxed">
