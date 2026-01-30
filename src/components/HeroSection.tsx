@@ -94,7 +94,7 @@ const HeroSection = () => {
           delay: 0.7
         }} className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="premium" size="xl" asChild>
-              <a href="#cta">Quero me tornar um consultor</a>
+              <a href="#fundamentos">Quero me tornar um consultor</a>
             </Button>
             <Button variant="goldOutline" size="xl" asChild>
               <a href="#metodo">Conheça o Programa Agromentor</a>
