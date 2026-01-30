@@ -17,7 +17,7 @@ const format = [
 
 const FundamentosSection = () => {
   return (
-    <section id="fundamentos" className="py-20 lg:py-28 bg-forest relative overflow-hidden">
+    <section id="fundamentos" className="py-20 lg:py-28 bg-forest-deep relative overflow-hidden">
       {/* Background decorations */}
       <div className="absolute top-1/4 left-0 w-64 h-64 bg-gold/5 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-gold/5 rounded-full blur-3xl" />
