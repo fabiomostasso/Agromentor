@@ -97,7 +97,7 @@ const HeroSection = () => {
               <a href="#cta">Quero me tornar um consultor</a>
             </Button>
             <Button variant="goldOutline" size="xl" asChild>
-              <a href="#metodo">Conheça o Método</a>
+              <a href="#metodo">Conheça o Programa Agromentor</a>
             </Button>
           </motion.div>
         </motion.div>
