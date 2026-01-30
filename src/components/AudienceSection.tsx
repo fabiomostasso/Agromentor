@@ -16,7 +16,7 @@ const notForWhom = [
 
 const AudienceSection = () => {
   return (
-    <section className="py-20 lg:py-28 bg-forest-deep relative">
+    <section className="py-20 lg:py-28 bg-forest relative">
       <div className="container mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

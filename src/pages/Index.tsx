@@ -3,6 +3,7 @@ import PainPointsSection from "@/components/PainPointsSection";
 import MarketChangeSection from "@/components/MarketChangeSection";
 import TransformationSection from "@/components/TransformationSection";
 import MethodSection from "@/components/MethodSection";
+import AreasSection from "@/components/AreasSection";
 import FundamentosSection from "@/components/FundamentosSection";
 import AudienceSection from "@/components/AudienceSection";
 import AboutSection from "@/components/AboutSection";
@@ -17,6 +18,7 @@ const Index = () => {
       <MarketChangeSection />
       <TransformationSection />
       <MethodSection />
+      <AreasSection />
       <FundamentosSection />
       <AudienceSection />
       <AboutSection />
