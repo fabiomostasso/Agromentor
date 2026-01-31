@@ -92,7 +92,14 @@ const AreasSection = () => {
 
                 {/* Content */}
                 <h3 className="text-xl font-serif font-bold text-gold mb-3">
-                  {area.title}
+                  {area.title.includes("PROFESSIONAL") || area.title.includes("BUSINESS") ? (
+                    <>
+                      {area.title.split(" ")[0]}{" "}
+                      <span className="text-[1.3em]">{area.title.split(" ")[1]}</span>
+                    </>
+                  ) : (
+                    area.title
+                  )}
                 </h3>
                 <p className="text-cream-muted leading-relaxed">
                   {area.description}
