@@ -33,7 +33,7 @@ const TransformationSection = () => {
       }} className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-cream mb-4">
             A transformação que o{" "}
-            <span className="text-gradient-gold">AgroMentor</span> entrega
+            <span className="text-gradient-gold">Programa AgroMentor</span> entrega
           </h2>
           <p className="text-lg text-cream-muted max-w-3xl mx-auto mt-6">
             Ao longo do programa, você deixa de ser apenas mais um profissional no mercado 
