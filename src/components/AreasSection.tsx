@@ -21,7 +21,7 @@ const areas = [
     number: "2",
     icon: Briefcase,
     title: "AgroMentor BUSINESS",
-    description: "Voltado para empresas do agronegócio.",
+    description: "Voltado para equipes comerciais de grandes empresas do agronegócio das áreas B2B, B2C e B2BC.",
     formats: null,
     formatsNote: null,
     levels: [
