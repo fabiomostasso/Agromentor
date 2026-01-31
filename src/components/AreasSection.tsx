@@ -15,7 +15,7 @@ const areas = [
     ],
     formatsNote: "Os formatos são definidos conforme o estágio profissional e os objetivos do participante.",
     levels: null,
-    buttonText: "Saiba mais sobre o AgroMentor Professional",
+    buttonText: "Saiba mais sobre o AgroMentor PROFESSIONAL",
   },
   {
     number: "2",
@@ -41,7 +41,7 @@ const areas = [
         detail: "Planejamento estratégico, fidelização e proteção de contas-chave",
       },
     ],
-    buttonText: "Saiba mais sobre o AgroMentor Business",
+    buttonText: "Saiba mais sobre o AgroMentor BUSINESS",
   },
 ];
 
@@ -152,7 +152,18 @@ const AreasSection = () => {
               {area.buttonText && (
                 <div className="mt-6">
                   <Button variant="gold" size="lg" className="w-full" asChild>
-                    <a href="#">{area.buttonText}</a>
+                    <a href="#">
+                      {area.buttonText.includes("AgroMentor") ? (
+                        <>
+                          Saiba mais sobre o{" "}
+                          <span className="font-bold text-[1.5em]">
+                            AgroMentor {area.buttonText.includes("PROFESSIONAL") ? "PROFESSIONAL" : "BUSINESS"}
+                          </span>
+                        </>
+                      ) : (
+                        area.buttonText
+                      )}
+                    </a>
                   </Button>
                 </div>
               )}
