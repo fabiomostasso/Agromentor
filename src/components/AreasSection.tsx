@@ -33,7 +33,7 @@ const areas = [
       },
       {
         name: "KEY ACCOUNT",
-        target: "Gestores e equipes envolvidas com grandes clientes",
+        target: "Suporte para gestor e equipe no atendimento de clientes chave.",
         detail: "Planejamento estratégico, fidelização e proteção de contas-chave",
       },
     ],
