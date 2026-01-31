@@ -8,13 +8,25 @@ const areas = [
     icon: Leaf,
     title: "AgroMentor PROFESSIONAL",
     description: "Voltada para o desenvolvimento e o aperfeiçoamento de profissionais das Ciências Agrárias.",
-    formats: [
-      "Mentoria em grupo",
-      "Mentoria mista (grupo + encontros individuais)",
-      "Mentoria individual premium",
+    formats: null,
+    formatsNote: null,
+    levels: [
+      {
+        name: "GROUP",
+        target: "Mentoria em Grupos Homogêneos",
+        detail: "Desenvolvimento completo do Método AgroMentor, com aplicação prática, troca entre participantes e construção da base consultiva.",
+      },
+      {
+        name: "MIX",
+        target: "Mentoria em Grupos com sessões individuais",
+        detail: "Combinação de mentoria em grupo com encontros individuais, permitindo ajustes personalizados, aprofundamento estratégico e acompanhamento direcionado.",
+      },
+      {
+        name: "PRIVATE",
+        target: "Mentoria Individual Premium",
+        detail: "Nível máximo do AgroMentor PROFESSIONAL, totalmente personalizado, com foco em posicionamento profissional, grandes contas, estratégia de carreira e crescimento financeiro.",
+      },
     ],
-    formatsNote: "Os formatos são definidos conforme o estágio profissional e os objetivos do participante.",
-    levels: null,
     buttonText: "Saiba mais sobre o AgroMentor PROFESSIONAL",
   },
   {
