@@ -101,7 +101,7 @@ const AreasSection = () => {
                     <span className="text-xl">{area.title}</span>
                   )}
                 </h3>
-                <p className="text-cream-muted leading-relaxed">
+                <p className="text-cream-muted leading-relaxed text-center">
                   {area.description}
                 </p>
                 
