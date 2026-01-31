@@ -151,20 +151,21 @@ const AreasSection = () => {
               {/* Button outside card */}
               {area.buttonText && (
                 <div className="mt-6">
-                  <Button variant="gold" size="lg" className="w-full h-auto py-3" asChild>
-                    <a href="#" className="flex flex-col items-center">
-                      {area.buttonText.includes("AgroMentor") ? (
-                        <>
-                          <span>Saiba mais sobre o</span>
-                          <span className="font-bold text-[1.5em]">
-                            AgroMentor {area.buttonText.includes("PROFESSIONAL") ? "PROFESSIONAL" : "BUSINESS"}
-                          </span>
-                        </>
-                      ) : (
-                        area.buttonText
-                      )}
-                    </a>
-                  </Button>
+                  <a 
+                    href="#" 
+                    className="flex flex-col items-center w-full py-4 px-6 rounded-lg bg-forest-deep border-2 border-gold hover:border-gold/80 transition-all duration-300"
+                  >
+                    {area.buttonText.includes("AgroMentor") ? (
+                      <>
+                        <span className="text-cream">Saiba mais sobre o</span>
+                        <span className="font-bold text-[1.3em] text-gold">
+                          AgroMentor {area.buttonText.includes("PROFESSIONAL") ? "PROFESSIONAL" : "BUSINESS"}
+                        </span>
+                      </>
+                    ) : (
+                      <span className="text-cream">{area.buttonText}</span>
+                    )}
+                  </a>
                 </div>
               )}
             </motion.div>
