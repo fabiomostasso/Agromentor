@@ -9,20 +9,11 @@ const areas = [
     title: "AgroMentor PROFESSIONAL",
     description: "Voltada para o desenvolvimento e o aperfeiçoamento de profissionais das Ciências Agrárias.",
     formats: [
-      {
-        name: "GROUP",
-        detail: "Mentoria em grupos homogêneos divididos em grau de conhecimento e área de atuação profissional.",
-      },
-      {
-        name: "PREMIUM",
-        detail: "Mentoria individual, absolutamente focada nas questões trazidas pelo mentorado.",
-      },
-      {
-        name: "MIX",
-        detail: "Mentoria mista, realizada em grupos e com sessões de atendimentos individualizados para todos os mentorados.",
-      },
+      "Mentoria em grupo",
+      "Mentoria mista (grupo + encontros individuais)",
+      "Mentoria individual premium",
     ],
-    formatsNote: null,
+    formatsNote: "Os formatos são definidos conforme o estágio profissional e os objetivos do participante.",
     levels: null,
     buttonText: "Saiba mais sobre o AgroMentor PROFESSIONAL",
   },
@@ -118,19 +109,17 @@ const AreasSection = () => {
                 {area.formats && (
                   <div className="mt-4">
                     <p className="text-cream-muted font-semibold mb-2">Níveis de atuação:</p>
-                    <ul className="space-y-3">
+                    <ul className="space-y-2">
                       {area.formats.map((format, formatIndex) => (
-                        <li key={formatIndex} className="text-cream-muted">
-                          <div className="flex items-start gap-2">
-                            <span className="text-gold">•</span>
-                            <div>
-                              <span className="font-bold text-cream">{format.name}</span>
-                              <span className="text-cream-muted"> – {format.detail}</span>
-                            </div>
-                          </div>
+                        <li key={formatIndex} className="flex items-start gap-2 text-cream-muted">
+                          <span className="text-gold">•</span>
+                          <span>{format}</span>
                         </li>
                       ))}
                     </ul>
+                    {area.formatsNote && (
+                      <p className="text-cream-muted mt-4 text-sm">{area.formatsNote}</p>
+                    )}
                   </div>
                 )}
                 
