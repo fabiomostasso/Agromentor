@@ -68,7 +68,7 @@ const AreasSection = () => {
           <div className="section-divider mt-8" />
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {areas.map((area, index) => (
             <motion.div
               key={index}
@@ -76,73 +76,74 @@ const AreasSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className={`relative p-8 rounded-2xl bg-forest-deep border border-gold/20 hover:border-gold/40 transition-all duration-300 group ${
-                index === 4 ? "md:col-span-2 lg:col-span-1 lg:mx-auto lg:w-full" : ""
-              }`}
+              className="flex flex-col"
             >
-              {/* Number badge */}
-              <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-gold-gradient flex items-center justify-center shadow-lg text-forest-deep font-bold text-xl font-serif">
-                {area.number}
-              </div>
-
-              {/* Icon */}
-              <div className="w-16 h-16 rounded-xl bg-forest flex items-center justify-center mb-6 group-hover:scale-110 transition-transform border border-gold/20">
-                <area.icon className="w-8 h-8 text-gold" />
-              </div>
-
-              {/* Content */}
-              <h3 className="text-xl font-serif font-bold text-gold mb-3">
-                {area.title}
-              </h3>
-              <p className="text-cream-muted leading-relaxed">
-                {area.description}
-              </p>
-              
-              {/* Formatos de entrega */}
-              {area.formats && (
-                <div className="mt-4">
-                  <p className="text-cream-muted font-semibold mb-2">Formatos de entrega:</p>
-                  <ul className="space-y-2">
-                    {area.formats.map((format, formatIndex) => (
-                      <li key={formatIndex} className="flex items-start gap-2 text-cream-muted">
-                        <span className="text-gold">•</span>
-                        <span>{format}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  {area.formatsNote && (
-                    <p className="text-cream-muted mt-4 text-sm">{area.formatsNote}</p>
-                  )}
+              {/* Card */}
+              <div className="relative p-8 rounded-2xl bg-forest-deep border border-gold/20 hover:border-gold/40 transition-all duration-300 group flex-1">
+                {/* Number badge */}
+                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-gold-gradient flex items-center justify-center shadow-lg text-forest-deep font-bold text-xl font-serif">
+                  {area.number}
                 </div>
-              )}
-              
-              {/* Níveis de atuação */}
-              {area.levels && (
-                <div className="mt-4">
-                  <p className="text-cream-muted font-semibold mb-2">Níveis de atuação:</p>
-                  <ul className="space-y-3">
-                    {area.levels.map((level, levelIndex) => (
-                      <li key={levelIndex} className="text-cream-muted">
-                        <div className="flex items-start gap-2">
+
+                {/* Icon */}
+                <div className="w-16 h-16 rounded-xl bg-forest flex items-center justify-center mb-6 group-hover:scale-110 transition-transform border border-gold/20">
+                  <area.icon className="w-8 h-8 text-gold" />
+                </div>
+
+                {/* Content */}
+                <h3 className="text-xl font-serif font-bold text-gold mb-3">
+                  {area.title}
+                </h3>
+                <p className="text-cream-muted leading-relaxed">
+                  {area.description}
+                </p>
+                
+                {/* Formatos de entrega */}
+                {area.formats && (
+                  <div className="mt-4">
+                    <p className="text-cream-muted font-semibold mb-2">Formatos de entrega:</p>
+                    <ul className="space-y-2">
+                      {area.formats.map((format, formatIndex) => (
+                        <li key={formatIndex} className="flex items-start gap-2 text-cream-muted">
                           <span className="text-gold">•</span>
-                          <div>
-                            <span className="font-bold text-cream">{level.name}</span>
-                            <span className="text-cream-muted"> – {level.target}</span>
-                            <div className="flex items-start gap-2 mt-1 ml-2">
-                              <span className="text-gold">•</span>
-                              <span className="text-cream-muted text-sm">{level.detail}</span>
+                          <span>{format}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    {area.formatsNote && (
+                      <p className="text-cream-muted mt-4 text-sm">{area.formatsNote}</p>
+                    )}
+                  </div>
+                )}
+                
+                {/* Níveis de atuação */}
+                {area.levels && (
+                  <div className="mt-4">
+                    <p className="text-cream-muted font-semibold mb-2">Níveis de atuação:</p>
+                    <ul className="space-y-3">
+                      {area.levels.map((level, levelIndex) => (
+                        <li key={levelIndex} className="text-cream-muted">
+                          <div className="flex items-start gap-2">
+                            <span className="text-gold">•</span>
+                            <div>
+                              <span className="font-bold text-cream">{level.name}</span>
+                              <span className="text-cream-muted"> – {level.target}</span>
+                              <div className="flex items-start gap-2 mt-1 ml-2">
+                                <span className="text-gold">•</span>
+                                <span className="text-cream-muted text-sm">{level.detail}</span>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
               
-              {/* Button */}
+              {/* Button outside card */}
               {area.buttonText && (
-                <div className="mt-6 pt-4 border-t border-gold/20">
+                <div className="mt-6">
                   <Button variant="gold" size="lg" className="w-full" asChild>
                     <a href="#">{area.buttonText}</a>
                   </Button>
