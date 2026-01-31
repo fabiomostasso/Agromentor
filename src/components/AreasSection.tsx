@@ -143,7 +143,7 @@ const AreasSection = () => {
               {/* Button */}
               {area.buttonText && (
                 <div className="mt-6 pt-4 border-t border-gold/20">
-                  <Button variant="goldOutline" size="lg" className="w-full" asChild>
+                  <Button variant="gold" size="lg" className="w-full" asChild>
                     <a href="#">{area.buttonText}</a>
                   </Button>
                 </div>
