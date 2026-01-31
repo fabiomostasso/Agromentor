@@ -30,7 +30,8 @@ const MarketChangeSection = () => {
         }} className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-cream mb-6">
               O agronegócio mudou.{" "}
-              <span className="text-gradient-gold">O profissional precisa mudar junto.</span>
+              <span className="text-gradient-gold">
+Você profissional do Agronegócio precisa mudar junto.</span>
             </h2>
             <div className="section-divider" />
           </motion.div>
@@ -47,10 +48,10 @@ const MarketChangeSection = () => {
           duration: 0.6,
           delay: 0.2
         }} className="text-center mb-12">
-            <p className="text-lg md:text-xl text-cream-muted leading-relaxed">
-              Produtos viraram commodities. Informação está disponível. 
-              O produtor compara, questiona e escolhe.
-            </p>
+            <p className="text-lg md:text-xl text-cream-muted leading-relaxed">Produtos viraram commodities. 
+A informação está disponível. 
+O cliente compara, questiona e escolhe.
+O Produtor não quer produto, </p>
             <p className="text-lg md:text-xl text-cream mt-4 font-medium">
               Nesse cenário, sobrevive e cresce quem consegue:
             </p>
