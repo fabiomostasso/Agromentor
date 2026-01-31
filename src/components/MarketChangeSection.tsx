@@ -48,8 +48,7 @@ Você profissional do Agronegócio precisa mudar junto.</span>
           duration: 0.6,
           delay: 0.2
         }} className="text-center mb-12">
-            <p className="text-lg md:text-xl text-cream-muted leading-relaxed">Produtos viraram commodities!!
-A informação está disponível!!    O cliente compara, questiona e escolhe!!   O Produtor não quer produto, quer solução!!</p>
+            <p className="text-lg md:text-xl text-cream-muted leading-relaxed">Produtos viraram commodities. A informação está disponível. O cliente compara, questiona e escolhe. O Produtor não quer apensa produto, ele quer SOLUÇÃO!!</p>
             <p className="text-lg md:text-xl text-cream mt-4 font-medium">
               Nesse cenário, sobrevive e cresce quem consegue:
             </p>
