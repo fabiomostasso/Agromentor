@@ -6,7 +6,13 @@ const areas = [
     number: "1",
     icon: Leaf,
     title: "AgroMentor PROFESSIONAL",
-    description: "Voltado ao desenvolvimento individual do profissional das Ciências Agrárias. Formatos de entrega: Mentoria em grupo, Mentoria mista (grupo + encontros individuais), Mentoria individual premium. Os formatos são definidos conforme o estágio profissional e os objetivos do participante.",
+    description: "Voltado ao desenvolvimento individual do profissional das Ciências Agrárias.",
+    formats: [
+      "Mentoria em grupo",
+      "Mentoria mista (grupo + encontros individuais)",
+      "Mentoria individual premium",
+    ],
+    formatsNote: "Os formatos são definidos conforme o estágio profissional e os objetivos do participante.",
     levels: null,
   },
   {
@@ -86,6 +92,24 @@ const AreasSection = () => {
               <p className="text-cream-muted leading-relaxed">
                 {area.description}
               </p>
+              
+              {/* Formatos de entrega */}
+              {area.formats && (
+                <div className="mt-4">
+                  <p className="text-cream-muted font-semibold mb-2">Formatos de entrega:</p>
+                  <ul className="space-y-2">
+                    {area.formats.map((format, formatIndex) => (
+                      <li key={formatIndex} className="flex items-start gap-2 text-cream-muted">
+                        <span className="text-gold">•</span>
+                        <span>{format}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  {area.formatsNote && (
+                    <p className="text-cream-muted mt-4 text-sm">{area.formatsNote}</p>
+                  )}
+                </div>
+              )}
               
               {/* Níveis de atuação */}
               {area.levels && (
