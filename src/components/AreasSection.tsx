@@ -7,7 +7,7 @@ const areas = [
     number: "1",
     icon: Leaf,
     title: "AgroMentor PROFESSIONAL",
-    description: "Voltado ao desenvolvimento individual do profissional das Ciências Agrárias.",
+    description: "Voltada para o desenvolvimento e o crescimento de profissionais das Ciências Agrárias.",
     formats: [
       "Mentoria em grupo",
       "Mentoria mista (grupo + encontros individuais)",
