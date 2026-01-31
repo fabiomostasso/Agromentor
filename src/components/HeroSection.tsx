@@ -25,7 +25,7 @@ const HeroSection = () => {
       }} className="flex justify-center mb-12">
           <div className="relative">
             <div className="absolute inset-0 bg-gold/20 rounded-full blur-3xl animate-pulse" />
-            <img alt="AgroMentor" className="relative w-[36rem] md:w-[48rem] lg:w-[54rem] drop-shadow-2xl animate-float" src="/lovable-uploads/cfea007f-cbf3-43eb-ad13-57337127fdef.png" />
+            <img alt="AgroMentor" className="relative w-[36rem] md:w-[48rem] lg:w-[54rem] drop-shadow-2xl animate-float" src="/lovable-uploads/429acf12-edc8-4a2e-823b-c78125a14e83.png" />
           </div>
         </motion.div>
 
