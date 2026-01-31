@@ -85,7 +85,7 @@ Você profissional do Agronegócio precisa mudar junto.</span>
         }} transition={{
           duration: 0.6,
           delay: 0.6
-        }} className="text-center text-xl md:text-2xl font-serif text-gold">É exatamente isso que o Programa AgroMentor desenvolve.<span className="font-bold"></span> desenvolve.
+        }} className="text-center text-xl md:text-2xl font-serif text-gold">É exatamente isso que o Programa AgroMentor desenvolve em você.<span className="font-bold"></span> desenvolve.
           </motion.p>
         </div>
       </div>
