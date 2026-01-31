@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Leaf, Bug, FlaskConical, Droplets, Mountain } from "lucide-react";
+import { Leaf, Briefcase } from "lucide-react";
 
 const areas = [
   {
@@ -7,12 +7,30 @@ const areas = [
     icon: Leaf,
     title: "AgroMentor PROFESSIONAL",
     description: "Voltado ao desenvolvimento individual do profissional das Ciências Agrárias. Formatos de entrega: Mentoria em grupo, Mentoria mista (grupo + encontros individuais), Mentoria individual premium. Os formatos são definidos conforme o estágio profissional e os objetivos do participante.",
+    levels: null,
   },
   {
     number: "2",
-    icon: Bug,
+    icon: Briefcase,
     title: "AgroMentor BUSINESS",
-    description: "Desenvolva estratégias de controle eficientes, sustentáveis e economicamente viáveis.",
+    description: "Voltado para empresas do agronegócio.",
+    levels: [
+      {
+        name: "EXECUTIVE",
+        target: "Diretores e gerentes",
+        detail: "Alinhamento estratégico entre técnica, comercial e gestão",
+      },
+      {
+        name: "COMERCIAL",
+        target: "Gestores e equipes comerciais",
+        detail: "Desenvolvimento de venda consultiva, posicionamento e geração de valor",
+      },
+      {
+        name: "KEY ACCOUNT",
+        target: "Gestores e equipes envolvidas com grandes clientes",
+        detail: "Planejamento estratégico, fidelização e proteção de contas-chave",
+      },
+    ],
   },
 ];
 
@@ -68,6 +86,30 @@ const AreasSection = () => {
               <p className="text-cream-muted leading-relaxed">
                 {area.description}
               </p>
+              
+              {/* Níveis de atuação */}
+              {area.levels && (
+                <div className="mt-4">
+                  <p className="text-cream-muted font-semibold mb-2">Níveis de atuação:</p>
+                  <ul className="space-y-3">
+                    {area.levels.map((level, levelIndex) => (
+                      <li key={levelIndex} className="text-cream-muted">
+                        <div className="flex items-start gap-2">
+                          <span className="text-gold">•</span>
+                          <div>
+                            <span className="font-bold text-cream">{level.name}</span>
+                            <span className="text-cream-muted"> – {level.target}</span>
+                            <div className="flex items-start gap-2 mt-1 ml-2">
+                              <span className="text-gold">•</span>
+                              <span className="text-cream-muted text-sm">{level.detail}</span>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </motion.div>
           ))}
         </div>
