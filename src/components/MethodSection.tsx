@@ -43,7 +43,7 @@ const MethodSection = () => {
       }} transition={{
         duration: 0.6
       }} className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-cream mb-4">O Método do Programa AgroMentor<span className="text-gradient-gold">AgroMentor</span>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-cream mb-4">O Método do Programa AgroMentor<span className="text-gradient-gold">AgroMentor</span>
           </h2>
           <p className="text-lg text-cream-muted max-w-2xl mx-auto mt-4">
             O AgroMentor é estruturado em um método próprio, baseado em cinco pilares fundamentais:
