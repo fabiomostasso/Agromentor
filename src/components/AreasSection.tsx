@@ -108,7 +108,7 @@ const AreasSection = () => {
                 {/* Formatos de entrega */}
                 {area.formats && (
                   <div className="mt-4">
-                    <p className="text-cream-muted font-semibold mb-2">Formatos de entrega:</p>
+                    <p className="text-cream-muted font-semibold mb-2">Níveis de atuação:</p>
                     <ul className="space-y-2">
                       {area.formats.map((format, formatIndex) => (
                         <li key={formatIndex} className="flex items-start gap-2 text-cream-muted">
