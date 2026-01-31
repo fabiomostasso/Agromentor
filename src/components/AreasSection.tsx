@@ -151,11 +151,11 @@ const AreasSection = () => {
               {/* Button outside card */}
               {area.buttonText && (
                 <div className="mt-6">
-                  <Button variant="gold" size="lg" className="w-full" asChild>
-                    <a href="#">
+                  <Button variant="gold" size="lg" className="w-full h-auto py-3" asChild>
+                    <a href="#" className="flex flex-col items-center">
                       {area.buttonText.includes("AgroMentor") ? (
                         <>
-                          Saiba mais sobre o{" "}
+                          <span>Saiba mais sobre o</span>
                           <span className="font-bold text-[1.5em]">
                             AgroMentor {area.buttonText.includes("PROFESSIONAL") ? "PROFESSIONAL" : "BUSINESS"}
                           </span>
