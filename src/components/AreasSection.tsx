@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Leaf, Briefcase } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const areas = [
   {
@@ -14,12 +15,15 @@ const areas = [
     ],
     formatsNote: "Os formatos são definidos conforme o estágio profissional e os objetivos do participante.",
     levels: null,
+    buttonText: "Saiba mais sobre o AgroMentor Professional",
   },
   {
     number: "2",
     icon: Briefcase,
     title: "AgroMentor BUSINESS",
     description: "Voltado para empresas do agronegócio.",
+    formats: null,
+    formatsNote: null,
     levels: [
       {
         name: "EXECUTIVE",
@@ -37,6 +41,7 @@ const areas = [
         detail: "Planejamento estratégico, fidelização e proteção de contas-chave",
       },
     ],
+    buttonText: "Saiba mais sobre o AgroMentor Business",
   },
 ];
 
@@ -132,6 +137,15 @@ const AreasSection = () => {
                       </li>
                     ))}
                   </ul>
+                </div>
+              )}
+              
+              {/* Button */}
+              {area.buttonText && (
+                <div className="mt-6 pt-4 border-t border-gold/20">
+                  <Button variant="goldOutline" size="lg" className="w-full" asChild>
+                    <a href="#">{area.buttonText}</a>
+                  </Button>
                 </div>
               )}
             </motion.div>
