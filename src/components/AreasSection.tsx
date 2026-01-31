@@ -91,9 +91,9 @@ const AreasSection = () => {
                 </div>
 
                 {/* Content */}
-                <h3 className="font-serif font-bold text-gold mb-3">
+                <h3 className="font-serif font-bold text-gold mb-3 text-center">
                   {area.title.includes("PROFESSIONAL") || area.title.includes("BUSINESS") ? (
-                    <span className="flex flex-col">
+                    <span className="flex flex-col items-center">
                       <span className="text-xl">{area.title.split(" ")[0]}</span>
                       <span className="text-[1.6rem]">{area.title.split(" ")[1]}</span>
                     </span>
