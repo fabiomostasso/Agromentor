@@ -11,7 +11,7 @@ const highlights = [
 
 const AboutSection = () => {
   return (
-    <section className="py-20 lg:py-28 bg-forest relative overflow-hidden">
+    <section className="py-20 lg:py-28 bg-forest-deep relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-gold/5 to-transparent" />
       
