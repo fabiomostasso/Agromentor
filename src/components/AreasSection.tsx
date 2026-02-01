@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import { Leaf, Briefcase } from "lucide-react";
+import { Cog, Briefcase } from "lucide-react";
 import { Button } from "@/components/ui/button";
 const areas = [{
   number: "1",
-  icon: Leaf,
+  icon: Cog,
   title: "AgroMentor PROFESSIONAL",
   description: "Voltada para o desenvolvimento e o aperfeiçoamento de profissionais das Ciências Agrárias.",
   formats: null,
