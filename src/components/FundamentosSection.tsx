@@ -30,7 +30,7 @@ const FundamentosSection = () => {
       }} transition={{
         duration: 0.6
       }} className="text-center mb-12">
-          <p className="text-gold text-lg mb-4">A porta de entrada para o Programa AgroMentor</p>
+          <p className="text-gold text-lg mb-4">A porta de entrada para o Programa AgroMentor PROFESSIONAL</p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-cream mb-4">
             Fundamentos do Consultor{" "}
             <span className="text-gradient-gold">AgroMentor</span>
