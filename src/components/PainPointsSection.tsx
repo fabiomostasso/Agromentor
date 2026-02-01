@@ -12,7 +12,7 @@ const painPoints = [
   },
   {
     icon: UserX,
-    text: "É visto como vendedor de produto, não como consultor",
+    text: "É visto como um mero vendedor de produto/commodities, não é valorizado pois não é respeitado como um Consultor Técnico Especializado",
   },
   {
     icon: Clock,
