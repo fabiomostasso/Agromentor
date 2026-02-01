@@ -4,7 +4,7 @@ import mentorPhoto from "@/assets/mentor-photo.jpg";
 
 const highlights = [
   { icon: Award, text: "Mais de 30 anos ininterruptos de vivência no agronegócio" },
-  { icon: Briefcase, text: "Experiência em empresas nacionais e multinacionais" },
+  { icon: Briefcase, text: "Experiência em grandes empresas nacionais e multinacionais de insumos e serviços" },
   { icon: Users, text: "Gestão comercial e grandes contas" },
   { icon: TrendingUp, text: "Desenvolvimento de mercado e consultoria" },
 ];
