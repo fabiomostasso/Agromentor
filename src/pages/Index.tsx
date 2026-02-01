@@ -20,8 +20,8 @@ const Index = () => {
       <MethodSection />
       <AreasSection />
       <FundamentosSection />
-      <AudienceSection />
       <AboutSection />
+      <AudienceSection />
       <CTASection />
       <Footer />
     </div>
