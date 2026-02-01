@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Check, X } from "lucide-react";
 
 const forWhom = [
-  "Profissionais das Ciências Agrárias",
+  "Profissionais das Ciências Agrárias que atuam nas áreas comercial de empresa ou em consultoria profissional",
   "Consultores, RTVs, representantes e demais profissionais da área comercial",
   "Profissionais com vivência prática no agro",
   "Quem quer parar de apenas disputar preço e começar a gerar valor no seu trabalho e produtividade para o cliente",
