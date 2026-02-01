@@ -1,95 +1,86 @@
 import { motion } from "framer-motion";
 import { Leaf, Briefcase } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
-const areas = [
-  {
-    number: "1",
-    icon: Leaf,
-    title: "AgroMentor PROFESSIONAL",
-    description: "Voltada para o desenvolvimento e o aperfeiçoamento de profissionais das Ciências Agrárias.",
-    formats: null,
-    formatsNote: null,
-    levels: [
-      {
-        name: "GROUP",
-        target: "Mentoria em Grupos Homogêneos",
-        detail: "Desenvolvimento completo do Método AgroMentor, com aplicação prática, troca entre participantes e construção da base consultiva.",
-      },
-      {
-        name: "MIX",
-        target: "Mentoria em Grupos com sessões individuais",
-        detail: "Combinação de mentoria em grupo com encontros individuais, permitindo ajustes personalizados, aprofundamento estratégico e acompanhamento direcionado.",
-      },
-      {
-        name: "PRIVATE",
-        target: "Mentoria Individual Premium",
-        detail: "Nível máximo do AgroMentor PROFESSIONAL, totalmente personalizado, com foco em posicionamento profissional, grandes contas, estratégia de carreira e crescimento financeiro.",
-      },
-    ],
-    buttonText: "Saiba mais sobre o AgroMentor PROFESSIONAL",
-  },
-  {
-    number: "2",
-    icon: Briefcase,
-    title: "AgroMentor BUSINESS",
-    description: "Voltado para equipes comerciais de grandes empresas do agronegócio das áreas B2B, B2C e B2BC.",
-    formats: null,
-    formatsNote: null,
-    levels: [
-      {
-        name: "EXECUTIVE",
-        target: "Diretores e gerentes",
-        detail: "Alinhamento estratégico entre técnica, comercial e gestão",
-      },
-      {
-        name: "COMERCIAL",
-        target: "Gestores e equipes comerciais",
-        detail: "Desenvolvimento de venda consultiva, posicionamento e geração de valor",
-      },
-      {
-        name: "KEY ACCOUNT",
-        target: "Suporte para gestor e equipe no atendimento de clientes chave.",
-        detail: "Planejamento estratégico, fidelização e proteção de contas-chave",
-      },
-    ],
-    buttonText: "Saiba mais sobre o AgroMentor BUSINESS",
-  },
-];
-
+const areas = [{
+  number: "1",
+  icon: Leaf,
+  title: "AgroMentor PROFESSIONAL",
+  description: "Voltada para o desenvolvimento e o aperfeiçoamento de profissionais das Ciências Agrárias.",
+  formats: null,
+  formatsNote: null,
+  levels: [{
+    name: "GROUP",
+    target: "Mentoria em Grupos Homogêneos",
+    detail: "Desenvolvimento completo do Método AgroMentor, com aplicação prática, troca entre participantes e construção da base consultiva."
+  }, {
+    name: "MIX",
+    target: "Mentoria em Grupos com sessões individuais",
+    detail: "Combinação de mentoria em grupo com encontros individuais, permitindo ajustes personalizados, aprofundamento estratégico e acompanhamento direcionado."
+  }, {
+    name: "PRIVATE",
+    target: "Mentoria Individual Premium",
+    detail: "Nível máximo do AgroMentor PROFESSIONAL, totalmente personalizado, com foco em posicionamento profissional, grandes contas, estratégia de carreira e crescimento financeiro."
+  }],
+  buttonText: "Saiba mais sobre o AgroMentor PROFESSIONAL"
+}, {
+  number: "2",
+  icon: Briefcase,
+  title: "AgroMentor BUSINESS",
+  description: "Voltado para equipes comerciais de grandes empresas do agronegócio das áreas B2B, B2C e B2BC.",
+  formats: null,
+  formatsNote: null,
+  levels: [{
+    name: "EXECUTIVE",
+    target: "Diretores e gerentes",
+    detail: "Alinhamento estratégico entre técnica, comercial e gestão"
+  }, {
+    name: "COMERCIAL",
+    target: "Gestores e equipes comerciais",
+    detail: "Desenvolvimento de venda consultiva, posicionamento e geração de valor"
+  }, {
+    name: "KEY ACCOUNT",
+    target: "Suporte para gestor e equipe no atendimento de clientes chave.",
+    detail: "Planejamento estratégico, fidelização e proteção de contas-chave"
+  }],
+  buttonText: "Saiba mais sobre o AgroMentor BUSINESS"
+}];
 const AreasSection = () => {
-  return (
-    <section id="areas" className="py-20 lg:py-28 bg-forest relative">
+  return <section id="areas" className="py-20 lg:py-28 bg-forest relative">
       {/* Golden accent line at top */}
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold to-transparent" />
       
       <div className="container mx-auto px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
+        <motion.div initial={{
+        opacity: 0,
+        y: 30
+      }} whileInView={{
+        opacity: 1,
+        y: 0
+      }} viewport={{
+        once: true
+      }} transition={{
+        duration: 0.6
+      }} className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-cream mb-4">
             Estrutura do <span className="text-gradient-gold">Programa AgroMentor</span>
           </h2>
-          <p className="text-lg text-cream-muted max-w-2xl mx-auto mt-4">
-            O AgroMentor é dividido em duas grandes áreas:
-          </p>
+          <p className="text-lg text-cream-muted max-w-2xl mx-auto mt-4">O Programa AgroMentor é dividido em duas grandes áreas:</p>
           <div className="section-divider mt-8" />
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          {areas.map((area, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="flex flex-col"
-            >
+          {areas.map((area, index) => <motion.div key={index} initial={{
+          opacity: 0,
+          y: 30
+        }} whileInView={{
+          opacity: 1,
+          y: 0
+        }} viewport={{
+          once: true
+        }} transition={{
+          duration: 0.5,
+          delay: index * 0.1
+        }} className="flex flex-col">
               {/* Card */}
               <div className="relative p-8 rounded-2xl bg-forest-deep border border-gold/20 hover:border-gold/40 transition-all duration-300 group flex-1">
                 {/* Number badge */}
@@ -104,44 +95,32 @@ const AreasSection = () => {
 
                 {/* Content */}
                 <h3 className="font-serif font-bold text-gold mb-3 text-center">
-                  {area.title.includes("PROFESSIONAL") || area.title.includes("BUSINESS") ? (
-                    <span className="flex flex-col items-center">
+                  {area.title.includes("PROFESSIONAL") || area.title.includes("BUSINESS") ? <span className="flex flex-col items-center">
                       <span className="text-xl">{area.title.split(" ")[0]}</span>
                       <span className="text-[1.6rem]">{area.title.split(" ")[1]}</span>
-                    </span>
-                  ) : (
-                    <span className="text-xl">{area.title}</span>
-                  )}
+                    </span> : <span className="text-xl">{area.title}</span>}
                 </h3>
                 <p className="text-cream-muted leading-relaxed text-center">
                   {area.description}
                 </p>
                 
                 {/* Formatos de entrega */}
-                {area.formats && (
-                  <div className="mt-4">
+                {area.formats && <div className="mt-4">
                     <p className="text-cream-muted font-semibold mb-2">Níveis de atuação:</p>
                     <ul className="space-y-2">
-                      {area.formats.map((format, formatIndex) => (
-                        <li key={formatIndex} className="flex items-start gap-2 text-cream-muted">
+                      {area.formats.map((format, formatIndex) => <li key={formatIndex} className="flex items-start gap-2 text-cream-muted">
                           <span className="text-gold">•</span>
                           <span>{format}</span>
-                        </li>
-                      ))}
+                        </li>)}
                     </ul>
-                    {area.formatsNote && (
-                      <p className="text-cream-muted mt-4 text-sm">{area.formatsNote}</p>
-                    )}
-                  </div>
-                )}
+                    {area.formatsNote && <p className="text-cream-muted mt-4 text-sm">{area.formatsNote}</p>}
+                  </div>}
                 
                 {/* Níveis de atuação */}
-                {area.levels && (
-                  <div className="mt-4">
+                {area.levels && <div className="mt-4">
                     <p className="text-cream-muted font-semibold mb-2">Níveis de atuação:</p>
                     <ul className="space-y-3">
-                      {area.levels.map((level, levelIndex) => (
-                        <li key={levelIndex} className="text-cream-muted">
+                      {area.levels.map((level, levelIndex) => <li key={levelIndex} className="text-cream-muted">
                           <div className="flex items-start gap-2">
                             <span className="text-gold">•</span>
                             <div>
@@ -153,39 +132,25 @@ const AreasSection = () => {
                               </div>
                             </div>
                           </div>
-                        </li>
-                      ))}
+                        </li>)}
                     </ul>
-                  </div>
-                )}
+                  </div>}
               </div>
               
               {/* Button outside card */}
-              {area.buttonText && (
-                <div className="mt-6">
-                  <a 
-                    href="#" 
-                    className="flex flex-col items-center w-full py-4 px-6 rounded-lg bg-forest-deep border-2 border-gold hover:border-gold/80 transition-all duration-300"
-                  >
-                    {area.buttonText.includes("AgroMentor") ? (
-                      <>
+              {area.buttonText && <div className="mt-6">
+                  <a href="#" className="flex flex-col items-center w-full py-4 px-6 rounded-lg bg-forest-deep border-2 border-gold hover:border-gold/80 transition-all duration-300">
+                    {area.buttonText.includes("AgroMentor") ? <>
                         <span className="text-cream">Saiba mais sobre o</span>
                         <span className="font-bold text-[1.3em] text-gold">
                           AgroMentor {area.buttonText.includes("PROFESSIONAL") ? "PROFESSIONAL" : "BUSINESS"}
                         </span>
-                      </>
-                    ) : (
-                      <span className="text-cream">{area.buttonText}</span>
-                    )}
+                      </> : <span className="text-cream">{area.buttonText}</span>}
                   </a>
-                </div>
-              )}
-            </motion.div>
-          ))}
+                </div>}
+            </motion.div>)}
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AreasSection;
