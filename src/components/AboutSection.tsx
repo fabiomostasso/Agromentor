@@ -6,7 +6,7 @@ const highlights = [
   { icon: Award, text: "Mais de 30 anos ininterruptos de vivência no agronegócio" },
   { icon: Briefcase, text: "Experiência em grandes empresas nacionais e multinacionais de insumos e serviços" },
   { icon: Users, text: "Atuação na gestão comercial de grandes contas e clientes, distribuidores e cooperativas" },
-  { icon: TrendingUp, text: "Desenvolvimento de mercado e consultoria" },
+  { icon: TrendingUp, text: "Vivência em P&D, Planejamento Industrial, Marketing, Desenvolvimento de Mercado, Comercial, Vendas e Consultorias" },
 ];
 
 const AboutSection = () => {
