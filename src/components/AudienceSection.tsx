@@ -10,7 +10,7 @@ const forWhom = [
 ];
 
 const notForWhom = [
-  "Iniciantes sem experiência prática",
+  "Vendedores que acreditam que, no agronegócio, os métodos milagrosos, como o SPIN Selling, ainda funcionam",
   "Quem busca fórmula mágica ou atalhos",
   "Quem não está disposto a mudar postura e mentalidade",
 ];
