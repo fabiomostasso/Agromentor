@@ -10,7 +10,7 @@ const transformations = [{
   from: "De relação pontual",
   to: "parceria de longo prazo"
 }, {
-  from: "De profissional substituível",
+  from: "De vendedor substituível",
   to: "profissional indispensável"
 }];
 const TransformationSection = () => {
