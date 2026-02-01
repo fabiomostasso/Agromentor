@@ -35,7 +35,7 @@ const TransformationSection = () => {
             A transformação que o{" "}
             <span className="text-gradient-gold">Programa AgroMentor</span> entrega
           </h2>
-          <p className="text-lg text-cream-muted max-w-3xl mx-auto mt-6">Ao longo do programa, você deixa de ser apenas mais um vendedor de commodities no mercado e passa a atuar, e ser reconhecido, como O Consultor Técnico Estratégico:<span className="text-gold font-semibold">Consultor Técnico Estratégico</span>:
+          <p className="text-lg text-cream-muted max-w-3xl mx-auto mt-6">Ao longo do programa, você deixa de ser apenas mais um vendedor de commodities no mercado e passa a atuar, e ser reconhecido, como Consultor Técnico Estratégico:<span className="text-gold font-semibold">Consultor Técnico Estratégico</span>:
           </p>
           <div className="section-divider mt-8" />
         </motion.div>
