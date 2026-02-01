@@ -16,7 +16,7 @@ const painPoints = [
   },
   {
     icon: Clock,
-    text: "Trabalha muito, do sol nascente até já noite escura, 7 dias por semana, mas sente que poderia estar ganhando mais, trabalhando menos, e ainda ser melhor respeitado e considerado",
+    text: "Trabalha muito, do sol nascente até noite escura, 7 dias por semana, e sente que deveria estar ganhando mais, trabalhando menos, e ser mais respeitado e considerado",
   },
   {
     icon: HelpCircle,
