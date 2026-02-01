@@ -11,7 +11,7 @@ const areas = [{
   levels: [{
     name: "GROUP",
     target: "Mentoria em Grupos Homogêneos",
-    detail: "Desenvolvimento completo do Método AgroMentor, com aplicação prática, troca entre participantes e construção da base consultiva."
+    detail: "Mentoria em grupo com foco prático, trocas de experiências e construção da base consultiva."
   }, {
     name: "MIX",
     target: "Mentoria em Grupos com sessões individuais",
