@@ -89,7 +89,7 @@ const AreasSection = () => {
                 </div>
 
                 {/* Icon */}
-                <div className="w-16 h-16 rounded-xl bg-forest flex items-center justify-center mb-6 group-hover:scale-110 transition-transform border border-gold/20">
+                <div className="w-16 h-16 rounded-xl bg-forest flex items-center justify-center mb-6 group-hover:scale-110 transition-transform border border-gold/20 mx-auto">
                   <area.icon className="w-8 h-8 text-gold" />
                 </div>
 
