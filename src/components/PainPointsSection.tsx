@@ -8,7 +8,7 @@ const painPoints = [
   },
   {
     icon: TrendingDown,
-    text: "Precisa conceder descontos para fechar negócios",
+    text: "Só consegue fechar vendas concedendo descontos ou benefícios para o cliente, não consegue gerar valor nos seus produtos, e todo ano é a mesma luta",
   },
   {
     icon: UserX,
