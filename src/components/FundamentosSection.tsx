@@ -51,7 +51,8 @@ const FundamentosSection = () => {
           duration: 0.6,
           delay: 0.2
         }} className="text-center mb-12">
-            <p className="text-lg text-cream-muted leading-relaxed max-w-3xl mx-auto">Este é o primeiro passo obrigatório para quem deseja entrar no Programa AgroMentor. Um módulo criado para ajustar mentalidade, postura e visão profissional, preparando você para atuar como consultor técnico estratégico.<span className="text-gold font-semibold">primeiro passo obrigatório</span> para 
+            <p className="text-lg text-cream-muted leading-relaxed max-w-3xl mx-auto">
+              Este é o <span className="text-gold font-semibold">primeiro passo obrigatório</span> para 
               quem deseja entrar no AgroMentor. Um programa criado para ajustar mentalidade, 
               postura e visão profissional, preparando você para atuar como consultor técnico estratégico.
             </p>
