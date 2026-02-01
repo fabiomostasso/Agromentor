@@ -62,8 +62,8 @@ const HeroSection = () => {
           delay: 0.5
         }} className="text-3xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-6">
             <span className="text-cream">Torne-se um </span>
-            <span className="text-gradient-gold">consultor indispensável</span>
-            <span className="text-cream"> para seu cliente do agronegócio.</span>
+            <span className="text-gradient-gold">consultor técnico indispensável</span>
+            <span className="text-cream"> para seu cliente no agronegócio.</span>
           </motion.h1>
 
           <motion.p initial={{
