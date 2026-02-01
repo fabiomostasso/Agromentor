@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Cog, Briefcase } from "lucide-react";
+import { Cog, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 const areas = [{
   number: "1",
@@ -24,7 +24,7 @@ const areas = [{
   buttonText: "Saiba mais sobre o AgroMentor PROFESSIONAL"
 }, {
   number: "2",
-  icon: Briefcase,
+  icon: Building2,
   title: "AgroMentor BUSINESS",
   description: "Voltado para equipes comerciais de grandes empresas do agronegócio das áreas B2B, B2C e B2BC.",
   formats: null,
