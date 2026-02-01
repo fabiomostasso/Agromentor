@@ -40,7 +40,7 @@ const areas = [{
   }, {
     name: "KEY ACCOUNT",
     target: "Suporte para gestor e equipe no atendimento de clientes chave.",
-    detail: "Planejamento estratégico, fidelização e proteção de contas-chave"
+    detail: "Planejamento estratégico com gestores de conta chave, individualizado para o perfil do cliente, com objetivo fim de fidelização, proteção e retenção de conta-chave."
   }],
   buttonText: "Saiba mais sobre o AgroMentor BUSINESS"
 }];
