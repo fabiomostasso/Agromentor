@@ -20,7 +20,7 @@ const painPoints = [
   },
   {
     icon: HelpCircle,
-    text: "Percebe que o cliente decide sem te consultar",
+    text: "Percebe que o cliente não respeita suas recomendações e até muda o manejo dos seus produtos sem te consultar",
   },
 ];
 
