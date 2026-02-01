@@ -115,6 +115,10 @@ const FundamentosSection = () => {
                   👉 Este não é um curso técnico. É uma mudança de postura profissional.
                 </p>
               </div>
+
+              <p className="text-cream-muted text-sm mt-6 italic">
+                *Para o Programa AgroMentor BUSINESS, a mentoria "<span className="text-gold">Fundamentos do Consultor AgroMentor</span>" é o primeiro módulo do programa.
+              </p>
             </motion.div>
           </div>
 
