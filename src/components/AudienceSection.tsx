@@ -6,6 +6,7 @@ const forWhom = [
   "Consultores, RTVs, representantes e demais profissionais da área comercial",
   "Profissionais com vivência prática no agro",
   "Quem quer parar de apenas disputar preço e começar a gerar valor no seu trabalho e produtividade para o cliente",
+  "Estudantes e iniciantes nas profissões das Ciências Agrárias que já querem se preparar logo cedo para serem Consultores Técnicos Especializados e não perderem tempo",
 ];
 
 const notForWhom = [
