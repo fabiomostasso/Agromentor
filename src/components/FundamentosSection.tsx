@@ -111,7 +111,7 @@ const FundamentosSection = () => {
               </ul>
 
               <div className="p-4 rounded-lg bg-gold/10 border border-gold/20">
-                <p className="text-gold font-serif italic text-center">
+                <p className="text-gold font-serif italic text-center text-lg md:text-xl">
                   👉 Este não é um curso técnico. É uma mudança de postura profissional.
                 </p>
               </div>
