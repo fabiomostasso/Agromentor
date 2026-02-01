@@ -23,7 +23,7 @@ const CTASection = () => {
             Dê o <span className="text-gradient-gold">próximo passo</span>
           </h2>
 
-          <p className="text-lg md:text-xl text-cream-muted leading-relaxed mb-8 max-w-2xl mx-auto">Se você sente que está pronto para subir de nível profissional e deixar de ser apenas mais um mero vendedor no mercado do agronegócio, o Fundamentos do Consultor AgroMentor é o seu ponto de partida.<span className="text-gold font-semibold">Fundamentos do Consultor AgroMentor</span> é 
+          <p className="text-lg md:text-xl text-cream-muted leading-relaxed mb-8 max-w-2xl mx-auto">Se você sente que está pronto para subir de nível profissional e deixar de ser apenas mais um mero vendedor no mercado do agronegócio, o Fundamentos do Consultor AgroMentor é o seu ponto de partida.<span className="text-gold font-semibold">Se você sente que está pronto para subir de nível profissional e deixar de ser apenas mais um mero vendedor no mercado do agronegócio, o </span> é 
             o seu ponto de partida.
           </p>
 
