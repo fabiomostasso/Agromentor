@@ -3,7 +3,7 @@ import { Check, X } from "lucide-react";
 
 const forWhom = [
   "Profissionais das Ciências Agrárias",
-  "Consultores, RTVs, representantes e técnicos",
+  "Consultores, RTVs, representantes e demais profissionais da área comercial",
   "Profissionais com vivência prática no agro",
   "Quem quer parar de disputar preço e começar a gerar valor",
 ];
