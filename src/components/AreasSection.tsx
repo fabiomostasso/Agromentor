@@ -19,7 +19,7 @@ const areas = [{
   }, {
     name: "PRIVATE",
     target: "Mentoria Individual Premium",
-    detail: "Nível máximo do AgroMentor PROFESSIONAL, totalmente personalizado, com foco em posicionamento profissional, grandes contas, estratégia de carreira e crescimento financeiro."
+    detail: "Nível máximo do Programa AgroMentor PROFESSIONAL, mentoria totalmente personalizada, com foco em posicionamento profissional, grandes negócios, estratégia de carreira e crescimento financeiro."
   }],
   buttonText: "Saiba mais sobre o AgroMentor PROFESSIONAL"
 }, {
