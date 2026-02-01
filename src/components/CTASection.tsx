@@ -23,7 +23,7 @@ const CTASection = () => {
             Dê o <span className="text-gradient-gold">próximo passo</span>
           </h2>
 
-          <p className="text-lg md:text-xl text-cream-muted leading-relaxed mb-8 max-w-2xl mx-auto">Se você sente que está pronto para subir de nível profissional e deixar de ser apenas mais um mero vendedor no mercado do agronegócio, o Fundamentos do Consultor AgroMentor é o seu ponto de partida.<span className="text-gold font-semibold">Fundamentos do Consultor AgroMentor</span> é 
+          <p className="text-lg md:text-xl text-cream-muted leading-relaxed mb-8 max-w-2xl mx-auto">Se você sente que está pronto para subir de nível profissional e deixar de ser apenas mais um mero vendedor no mercado do agronegócio, o Fundamentos do Consultor AgroMentor é o seu ponto de partida.<span className="text-gold font-semibold">Se você sente que está pronto para subir de nível profissional e deixar de ser apenas mais um mero vendedor no mercado do agronegócio, o </span> é 
             o seu ponto de partida.
           </p>
 
@@ -41,7 +41,7 @@ const CTASection = () => {
         }} className="inline-block mb-8">
             <Button variant="premium" size="xl" className="text-lg px-12 py-6 h-auto gold-glow group" asChild>
               <a href="https://forms.google.com" target="_blank" rel="noopener noreferrer">
-                <span>Manifeste seu interesse no Fundamentos</span>
+                <span>Faça já sua inscrição e conheça os fundamentos do consultor A</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>
