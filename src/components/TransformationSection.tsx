@@ -8,7 +8,7 @@ const transformations = [{
   to: "defesa de valor"
 }, {
   from: "De relação pontual",
-  to: "parceria de longo prazo"
+  to: "fidelidade a longo prazo"
 }, {
   from: "De vendedor substituível",
   to: "profissional indispensável"
