@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Check, X } from "lucide-react";
 
 const forWhom = [
-  "Engenheiros agrônomos e profissionais das Ciências Agrárias",
+  "Profissionais das Ciências Agrárias",
   "Consultores, RTVs, representantes e técnicos",
   "Profissionais com vivência prática no agro",
   "Quem quer parar de disputar preço e começar a gerar valor",
