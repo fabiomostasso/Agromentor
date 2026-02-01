@@ -15,7 +15,7 @@ const areas = [{
   }, {
     name: "MIX",
     target: "Mentoria em Grupos com sessões individuais",
-    detail: "Combinação de mentoria em grupo com encontros individuais, permitindo ajustes personalizados, aprofundamento estratégico e acompanhamento direcionado."
+    detail: "Plano GROUP mais reuniões individuais, para ajustes personalizados, aprofundamento estratégico e acompanhamento direcionado."
   }, {
     name: "PRIVATE",
     target: "Mentoria Individual Premium",
