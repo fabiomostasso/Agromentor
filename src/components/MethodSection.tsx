@@ -45,9 +45,7 @@ const MethodSection = () => {
       }} className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-cream mb-4">O Método do Programa <span className="text-gradient-gold">AgroMentor</span>
           </h2>
-          <p className="text-lg text-cream-muted max-w-2xl mx-auto mt-4">
-            O AgroMentor é estruturado em um método próprio, baseado em cinco pilares fundamentais:
-          </p>
+          <p className="text-lg text-cream-muted max-w-2xl mx-auto mt-4">O Programa AgroMentor é estruturado em um método próprio, desenvolvido ao longo de anos de atuação no agronegócio, de muita observação e de muitos casos de sucesso, e assim, está baseado em cinco pilares fundamentais:</p>
           <div className="section-divider mt-8" />
         </motion.div>
 
