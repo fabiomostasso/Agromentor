@@ -75,7 +75,7 @@ const HeroSection = () => {
         }} transition={{
           duration: 0.6,
           delay: 0.6
-        }} className="text-lg md:text-xl text-cream-muted leading-relaxed mb-8 max-w-2xl mx-auto">AgroMentor é um programa de desenvolvimento profissional, para profissionais das Ciências Agrárias, em geral, que desejam subir de nível, gerar valor real para seus clientes, conquistar fidelidade e construir uma carreira sólida, respeitada e bem remunerada.</motion.p>
+        }} className="text-lg md:text-xl text-cream-muted leading-relaxed mb-8 max-w-2xl mx-auto">AgroMentor é um programa de desenvolvimento profissional, para profissionais das Ciências Agrárias que desejam subir de nível, gerar valor real para seus clientes, conquistar suas confiança e fidelidade e assim, construir uma carreira sólida, respeitada e bem remunerada.</motion.p>
 
           <motion.div initial={{
           opacity: 0,
