@@ -4,7 +4,7 @@ import { AlertCircle, TrendingDown, UserX, Clock, HelpCircle } from "lucide-reac
 const painPoints = [
   {
     icon: AlertCircle,
-    text: "Tem excelente conhecimento técnico, mas sente que o mercado não valoriza isso como deveria",
+    text: "Tem excelente conhecimento técnico, mas não consegue aplicar ou sente que o mercado não valoriza isso como deveria",
   },
   {
     icon: TrendingDown,
