@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 const transformations = [{
   from: "De um mero vendedor de produto",
-  to: "Consultor Técnico Especializado de confiança"
+  to: "Consultor Técnico de confiança"
 }, {
   from: "De disputa por preço",
   to: "defesa de valor"
