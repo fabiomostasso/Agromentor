@@ -131,7 +131,7 @@ const FundamentosSection = () => {
           delay: 0.5
         }} className="text-center">
             <Button variant="premium" size="xl" asChild>
-              <a href="#cta">Quero começar o Programa Agromentor PROFESSIONAL</a>
+              <a href="#cta">Quero começar o Programa AgroMentor PROFESSIONAL</a>
             </Button>
           </motion.div>
         </div>
