@@ -38,10 +38,10 @@ const CTASection = () => {
         }} transition={{
           duration: 0.5,
           delay: 0.2
-        }} className="inline-block mb-8">
+        }} className="flex flex-col items-center mb-8">
+            <p className="text-lg md:text-xl text-cream mb-4">Faça já sua inscrição e conheça os</p>
             <Button variant="premium" size="xl" className="text-lg px-12 py-6 h-auto gold-glow group" asChild>
               <a href="https://forms.google.com" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center text-center">
-                <span className="text-cream">Faça já sua inscrição e conheça os</span>
                 <span className="text-gold-dark text-[1.3em] font-semibold">Fundamentos do Consultor AgroMentor</span>
                 <span className="text-cream">Não perca essa oportunidade, vagas limitadas!!</span>
               </a>
