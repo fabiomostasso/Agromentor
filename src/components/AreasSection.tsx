@@ -143,7 +143,7 @@ const AreasSection = () => {
               {area.buttonText && <div className="mt-6">
                   <a href={area.buttonHref} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center w-full py-4 px-6 rounded-lg bg-forest-deep border-2 border-gold hover:border-gold/80 transition-all duration-300">
                     {area.buttonText.includes("AgroMentor") ? <>
-                        <span className="text-cream">Saiba mais sobre o</span>
+                        <span className="text-cream text-[0.75em]">Saiba mais sobre o programa</span>
                         <span className="font-bold text-[1.3em] text-gold">
                           AgroMentor {area.buttonText.includes("PROFESSIONAL") ? "PROFESSIONAL" : "BUSINESS"}
                         </span>
