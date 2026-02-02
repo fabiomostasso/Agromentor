@@ -44,7 +44,7 @@ const areas = [{
     detail: "Planejamento estratégico com gestores de conta chave, individualizado para o perfil do cliente, com objetivo fim de fidelização, proteção e retenção de conta-chave."
   }],
   buttonText: "Saiba mais sobre o AgroMentor BUSINESS",
-  buttonHref: "#"
+  buttonHref: "https://agromentor.com.br/business/"
 }];
 const AreasSection = () => {
   return <section id="areas" className="py-20 lg:py-28 bg-forest relative">
