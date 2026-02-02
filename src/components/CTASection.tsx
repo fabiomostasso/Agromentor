@@ -42,7 +42,7 @@ const CTASection = () => {
             <p className="text-lg md:text-xl text-cream mb-4">Faça já sua inscrição e conheça os</p>
             <Button variant="premium" size="xl" className="text-lg px-12 py-6 h-auto gold-glow group" asChild>
               <a href="https://forms.google.com" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center text-center">
-                <span className="text-gold-dark text-[1.3em] font-semibold">Fundamentos do Consultor AgroMentor</span>
+                <span className="text-primary-foreground text-[1.3em] font-semibold">Fundamentos do Consultor AgroMentor</span>
               </a>
             </Button>
             <p className="text-lg md:text-xl text-cream mt-4">Não perca essa oportunidade, vagas limitadas!!</p>
