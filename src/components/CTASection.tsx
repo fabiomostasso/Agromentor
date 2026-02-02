@@ -40,9 +40,10 @@ const CTASection = () => {
           delay: 0.2
         }} className="inline-block mb-8">
             <Button variant="premium" size="xl" className="text-lg px-12 py-6 h-auto gold-glow group" asChild>
-              <a href="https://forms.google.com" target="_blank" rel="noopener noreferrer">
-                <span>Faça já sua inscrição e conheça os fundamentos do consultor A</span>
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <a href="https://forms.google.com" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center text-center">
+                <span className="text-cream">Faça já sua inscrição e conheça os</span>
+                <span className="text-gold-dark text-[1.3em] font-semibold">Fundamentos do Consultor AgroMentor</span>
+                <span className="text-cream">Não perca essa oportunidade, vagas limitadas!!</span>
               </a>
             </Button>
           </motion.div>
