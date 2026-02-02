@@ -21,7 +21,8 @@ const areas = [{
     target: "Mentoria Individual Premium",
     detail: "Nível máximo do Programa AgroMentor PROFESSIONAL, mentoria totalmente personalizada, com foco em posicionamento profissional, grandes negócios, estratégia de carreira e crescimento financeiro."
   }],
-  buttonText: "Saiba mais sobre o AgroMentor PROFESSIONAL"
+  buttonText: "Saiba mais sobre o AgroMentor PROFESSIONAL",
+  buttonHref: "https://agromentor.com.br/professional/"
 }, {
   number: "2",
   icon: Building2,
@@ -42,7 +43,8 @@ const areas = [{
     target: "Suporte para gestor e equipe no atendimento de clientes chave.",
     detail: "Planejamento estratégico com gestores de conta chave, individualizado para o perfil do cliente, com objetivo fim de fidelização, proteção e retenção de conta-chave."
   }],
-  buttonText: "Saiba mais sobre o AgroMentor BUSINESS"
+  buttonText: "Saiba mais sobre o AgroMentor BUSINESS",
+  buttonHref: "#"
 }];
 const AreasSection = () => {
   return <section id="areas" className="py-20 lg:py-28 bg-forest relative">
@@ -139,7 +141,7 @@ const AreasSection = () => {
               
               {/* Button outside card */}
               {area.buttonText && <div className="mt-6">
-                  <a href="#" className="flex flex-col items-center w-full py-4 px-6 rounded-lg bg-forest-deep border-2 border-gold hover:border-gold/80 transition-all duration-300">
+                  <a href={area.buttonHref} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center w-full py-4 px-6 rounded-lg bg-forest-deep border-2 border-gold hover:border-gold/80 transition-all duration-300">
                     {area.buttonText.includes("AgroMentor") ? <>
                         <span className="text-cream">Saiba mais sobre o</span>
                         <span className="font-bold text-[1.3em] text-gold">
