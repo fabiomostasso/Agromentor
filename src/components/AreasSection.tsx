@@ -33,7 +33,7 @@ const areas = [{
   levels: [{
     name: "MANAGER",
     target: "Gestores da área comercial",
-    detail: "Alinhamento estratégico entre técnica, comercial e gestão"
+    detail: "Alinhamento estratégico gerencial entre as áreas técnica, marketing e comercial."
   }, {
     name: "COMERCIAL",
     target: "Gestores e equipes comerciais",
