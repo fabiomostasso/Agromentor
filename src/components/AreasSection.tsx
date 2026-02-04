@@ -31,7 +31,7 @@ const areas = [{
   formats: null,
   formatsNote: null,
   levels: [{
-    name: "EXECUTIVE",
+    name: "MANAGER",
     target: "Diretores e gerentes",
     detail: "Alinhamento estratégico entre técnica, comercial e gestão"
   }, {
