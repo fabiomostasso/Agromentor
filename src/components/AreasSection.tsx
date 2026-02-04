@@ -36,7 +36,7 @@ const areas = [{
     detail: "Alinhamento estratégico gerencial entre as áreas técnica, marketing e comercial."
   }, {
     name: "COMERCIAL",
-    target: "Equipes comerciais diretamente envolvidos no contato com os clientes",
+    target: "Responsáveis diretos pelo relacionamento com os clientes",
     detail: "Desenvolvimento da verdadeira venda consultiva, deposicionamento e geração de valor dos produtos, e a fidelização do cliente."
   }, {
     name: "KEY ACCOUNT",
