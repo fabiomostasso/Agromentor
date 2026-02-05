@@ -50,7 +50,8 @@ const Footer = () => {
             </div>
 
             {/* Right column - Contact */}
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center">
+              <p className="text-cream font-serif text-lg mb-4">Fale Conosco</p>
               <div className="flex items-center gap-6">
                 <a 
                   href="http://apiwhatsapp.com" 
