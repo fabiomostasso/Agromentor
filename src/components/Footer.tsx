@@ -54,7 +54,7 @@ const Footer = () => {
               <p className="text-cream font-serif text-lg mb-4">Fale Conosco</p>
               <div className="flex items-center gap-6">
                 <a 
-                  href="http://apiwhatsapp.com" 
+                  href="https://wa.me/5543991617015" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gold hover:text-gold/80 transition-colors"
