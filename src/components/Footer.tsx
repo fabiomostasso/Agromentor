@@ -39,7 +39,7 @@ const Footer = () => {
                   <Linkedin className="w-8 h-8" />
                 </a>
                 <a 
-                  href="https://youtube.com" 
+                  href="https://www.youtube.com/@agromentor-fabio" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gold hover:text-gold/80 transition-colors"
