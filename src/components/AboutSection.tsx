@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Award, Briefcase, Users, TrendingUp } from "lucide-react";
+import { Award, Briefcase, Users, TrendingUp, Linkedin } from "lucide-react";
 import mentorPhoto from "@/assets/mentor-photo.jpg";
 
 const highlights = [
@@ -83,6 +83,28 @@ const AboutSection = () => {
                     <span className="text-sm text-cream-muted">{item.text}</span>
                   </div>
                 ))}
+              </div>
+
+              <div className="flex items-center gap-4 mt-6 p-4 rounded-lg bg-forest-deep/50 border border-gold/10">
+                <a
+                  href="https://www.linkedin.com/in/fabiomostasso/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-full border-2 border-gold text-gold hover:bg-gold hover:text-forest-deep transition-colors"
+                >
+                  <Linkedin className="w-5 h-5" />
+                </a>
+                <p className="text-sm text-cream-muted">
+                  Conheça mais da carreira profissional do seu Mentor do Agronegócio em seu{" "}
+                  <a
+                    href="https://www.linkedin.com/in/fabiomostasso/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gold hover:text-gold/80 underline underline-offset-2 transition-colors"
+                  >
+                    perfil do LinkedIn
+                  </a>.
+                </p>
               </div>
             </motion.div>
           </div>
