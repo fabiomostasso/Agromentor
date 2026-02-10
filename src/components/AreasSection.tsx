@@ -35,7 +35,7 @@ const areas = [{
     target: "Gestores da área comercial",
     detail: "Alinhamento estratégico gerencial entre as áreas técnica, marketing e comercial."
   }, {
-    name: "COMERCIAL",
+    name: "COMMERCIAL",
     target: "Responsáveis diretos pelo relacionamento com os clientes",
     detail: "Desenvolvimento da verdadeira venda consultiva, deposicionamento e geração de valor dos produtos, e a fidelização do cliente."
   }, {
