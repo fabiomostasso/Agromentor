@@ -41,7 +41,7 @@ const CTASection = () => {
         }} className="flex flex-col items-center mb-8">
             <p className="text-lg md:text-xl text-cream mb-4">Faça já sua inscrição e conheça os</p>
             <Button variant="premium" size="xl" className="text-lg px-12 py-6 h-auto gold-glow group" asChild>
-              <a href="https://pay.hotmart.com/H104279109I?off=ldm35ey5&checkoutMode=10" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center text-center">
+              <a href="https://agromentor.com.br/fundamentos/inscricao/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center text-center">
                 <span className="text-primary-foreground text-[1.3em] font-semibold">Fundamentos do Consultor AgroMentor</span>
               </a>
             </Button>
