@@ -11,7 +11,7 @@ const areas = [{
   levels: [{
     name: "STARTER",
     target: "Mentoria Especial em Grupos",
-    detail: "Tem o objetivo de gerar no profissional, seja iniciante ou não, confiança e segurança na vida profissional."
+    detail: "Tem o objetivo de gerar no profissional, iniciante ou não, confiança e segurança na dia a dia."
   }, {
     name: "GROUP",
     target: "Mentoria em Grupos Homogêneos",
