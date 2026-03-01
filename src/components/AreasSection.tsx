@@ -10,7 +10,7 @@ const areas = [{
   formatsNote: null,
   levels: [{
     name: "STARTER",
-    target: "Mentoria para quem ainda se sente inseguro",
+    target: "Mentoria para quem não tem auto-confiança",
     detail: "Tem o objetivo de gerar no profissional, seja iniciante ou antigo de estrada, confiança e segurança na vida profissional."
   }, {
     name: "GROUP",
