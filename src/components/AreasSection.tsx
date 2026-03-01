@@ -9,6 +9,10 @@ const areas = [{
   formats: null,
   formatsNote: null,
   levels: [{
+    name: "STARTER",
+    target: "Mentoria para quem ainda se sente inseguro",
+    detail: "Tem o objetivo de gerar no profissional, seja iniciante ou antigo de estrada, confiança e segurança na vida profissional."
+  }, {
     name: "GROUP",
     target: "Mentoria em Grupos Homogêneos",
     detail: "Mentoria em grupo com foco prático, trocas de experiências e construção da base consultiva."
