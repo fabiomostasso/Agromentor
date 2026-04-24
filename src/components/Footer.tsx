@@ -79,7 +79,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} AgroMentor. Todos os direitos reservados.
+           © 2026 Agrobio.Tec - Todos os direitos reservados.
           </p>
         </div>
       </div>
