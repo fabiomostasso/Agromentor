@@ -90,11 +90,11 @@ const Footer = () => {
         <div className="container mx-auto px-6 py-8">
           <div className="grid grid-cols-3 gap-6 items-center">
             {/* Logo column */}
-            <div className="flex justify-center md:justify-start">
+            <div className="flex justify-end">
               <img
                 src={logoAgrobiotec}
                 alt="Agrobio.Tec Engenharia Agronômica"
-                className="h-16 md:h-20 w-auto object-fill"
+                className="h-[3.2rem] md:h-16 w-auto object-fill"
               />
             </div>
 
