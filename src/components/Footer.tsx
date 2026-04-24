@@ -99,12 +99,12 @@ const Footer = () => {
             </div>
 
             {/* Text spanning the remaining 2 columns */}
-            <div className="col-span-2 text-cream-muted text-sm md:text-base leading-relaxed">
-              <p className="font-semibold text-cream">Agrobio.Tec Engenharia Agronômica Ltda</p>
-              <p>CNPJ 49.465.260/0001-21</p>
-              <p>Rua Prof. Samuel Moura, 665 - Londrina/PR - 86061-060</p>
-              <p>Telefone: +55 (43) 99161-7015</p>
-            </div>
+             <div className="col-span-2 text-cream-muted text-sm md:text-base leading-relaxed">
+               <p className="text-cream text-base font-extrabold">Agrobio.Tec Engenharia Agronômica Ltda</p>
+               <p className="text-xs">CNPJ 49.465.260/0001-21</p>
+               <p className="text-xs">Rua Prof. Samuel Moura, 665 - Londrina/PR - 86061-060</p>
+               <p></p>
+             </div>
           </div>
         </div>
       </div>
