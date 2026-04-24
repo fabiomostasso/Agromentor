@@ -1,4 +1,5 @@
 import { Instagram, Linkedin, Youtube, Mail } from "lucide-react";
+import logoAgrobiotec from "@/assets/logo-agrobiotec.png";
 
 const Footer = () => {
   return <footer className="py-12 bg-forest-deep border-t border-gold/10">
@@ -81,6 +82,30 @@ const Footer = () => {
           <p className="text-sm text-muted-foreground">
            © 2026 Agrobio.Tec - Todos os direitos reservados.
           </p>
+        </div>
+      </div>
+
+      {/* Sub-footer - Empresa */}
+      <div className="mt-12 bg-[hsl(150_40%_5%)] border-t border-gold/10">
+        <div className="container mx-auto px-6 py-8">
+          <div className="grid grid-cols-3 gap-6 items-center">
+            {/* Logo column */}
+            <div className="flex justify-center md:justify-start">
+              <img
+                src={logoAgrobiotec}
+                alt="Agrobio.Tec Engenharia Agronômica"
+                className="h-16 md:h-20 w-auto"
+              />
+            </div>
+
+            {/* Text spanning the remaining 2 columns */}
+            <div className="col-span-2 text-cream-muted text-sm md:text-base leading-relaxed">
+              <p className="font-semibold text-cream">Agrobio.Tec Engenharia Agronômica Ltda</p>
+              <p>CNPJ 49.465.260/0001-21</p>
+              <p>Rua Prof. Samuel Moura, 665 - Londrina/PR - 86061-060</p>
+              <p>Telefone: +55 (43) 99161-7015</p>
+            </div>
+          </div>
         </div>
       </div>
     </footer>;
