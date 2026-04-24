@@ -94,7 +94,7 @@ const Footer = () => {
               <img
                 src={logoAgrobiotec}
                 alt="Agrobio.Tec Engenharia Agronômica"
-                className="h-16 md:h-20 w-auto"
+                className="h-16 md:h-20 w-auto object-fill"
               />
             </div>
 
