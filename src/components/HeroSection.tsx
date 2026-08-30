@@ -49,7 +49,7 @@ const HeroSection = () => {
         }} transition={{
           duration: 0.6,
           delay: 0.4
-        }} className="text-3xl md:text-4xl font-serif text-gold-light mb-4">Deixe de ser apenas um vendedor</motion.h2>
+        }} className="text-3xl md:text-4xl font-serif text-cream mb-4">Deixe de ser apenas um vendedor</motion.h2>
           
           <motion.h1 initial={{
           opacity: 0,
@@ -60,10 +60,8 @@ const HeroSection = () => {
         }} transition={{
           duration: 0.6,
           delay: 0.5
-        }} className="text-3xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-6">
-            <span className="text-cream">Torne-se um </span>
-            <span className="text-gradient-gold">consultor técnico indispensável</span>
-            <span className="text-cream"> no agronegócio</span>
+        }} className="text-3xl md:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-6 text-gold">
+            Torne-se um consultor estratégico indispensável no agronegócio
           </motion.h1>
 
           <motion.p initial={{
@@ -86,12 +84,9 @@ const HeroSection = () => {
         }} transition={{
           duration: 0.6,
           delay: 0.7
-        }} className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="goldOutline" size="xl" asChild>
-              <a href="#metodo">Conheça o Programa AgroMentor</a>
-            </Button>
+        }} className="flex justify-center">
             <Button variant="premium" size="xl" asChild>
-              <a href="https://agromentor.com.br/fundamentos/" target="_blank" rel="noopener noreferrer">Quero ser um Consultor Técnico</a>
+              <a href="https://agromentor.com.br/fundamentos/" target="_blank" rel="noopener noreferrer">Quero ser um Consultor estratégico</a>
             </Button>
           </motion.div>
         </motion.div>
