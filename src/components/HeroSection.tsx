@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import heroLogo from "@/assets/logo-agromentor-hero.png.asset.json";
+import heroLogo from "@/assets/logo-agromentor-hero.png";
 import heroBackground from "@/assets/hero-background.jpg";
 const HeroSection = () => {
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
