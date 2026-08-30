@@ -22,10 +22,10 @@ const HeroSection = () => {
         scale: 1
       }} transition={{
         duration: 0.8
-      }} className="flex justify-center mb-12">
+      }} className="flex justify-center mb-6">
           <div className="relative">
             <div className="absolute inset-0 bg-gold/20 rounded-full blur-3xl animate-pulse" />
-            <img alt="AgroMentor" className="relative w-[9rem] md:w-[12rem] lg:w-[13.5rem] drop-shadow-2xl animate-float" src={heroLogo.url} />
+            <img alt="AgroMentor" className="relative w-[9rem] md:w-[12rem] lg:w-[13.5rem] drop-shadow-2xl" src={heroLogo.url} />
           </div>
         </motion.div>
 
