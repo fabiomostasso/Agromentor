@@ -49,7 +49,7 @@ const HeroSection = () => {
         }} transition={{
           duration: 0.6,
           delay: 0.4
-        }} className="text-xl md:text-2xl font-serif text-gold-light mb-4">Deixe de ser apenas um vendedor</motion.h2>
+        }} className="text-3xl md:text-4xl font-serif text-gold-light mb-4">Deixe de ser apenas um vendedor</motion.h2>
           
           <motion.h1 initial={{
           opacity: 0,
