@@ -86,7 +86,7 @@ const HeroSection = () => {
           delay: 0.7
         }} className="flex justify-center">
             <Button variant="premium" size="xl" asChild>
-              <a href="https://agromentor.com.br/fundamentos/" target="_blank" rel="noopener noreferrer">Quero ser um Consultor estratégico</a>
+              <a href="https://agromentor.com.br/fundamentos/" target="_blank" rel="noopener noreferrer">Quero ser um Consultor Estratégico</a>
             </Button>
           </motion.div>
         </motion.div>
