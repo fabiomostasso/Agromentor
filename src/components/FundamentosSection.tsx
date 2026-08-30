@@ -54,7 +54,7 @@ const FundamentosSection = () => {
             <p className="text-lg text-cream-muted leading-relaxed max-w-3xl mx-auto">
               Este é o <span className="text-gold font-semibold">primeiro passo recomendado</span> para 
               quem deseja entrar no AgroMentor. Um programa criado para ajustar mentalidade, 
-              postura e visão profissional, preparando você para atuar como consultor técnico estratégico.
+              postura e visão profissional, preparando você para atuar como Consultor Estratégico.
             </p>
           </motion.div>
 
