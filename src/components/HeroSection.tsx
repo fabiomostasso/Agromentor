@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import heroLogo from "@/assets/logo-agromentor-hero.png.asset.json";
+import heroLogo from "@/assets/logo-agromentor-hero.png";
 import heroBackground from "@/assets/hero-background.jpg";
 const HeroSection = () => {
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -25,7 +25,7 @@ const HeroSection = () => {
       }} className="flex justify-center mb-6">
           <div className="relative">
             <div className="absolute inset-0 bg-gold/20 rounded-full blur-3xl animate-pulse" />
-            <img alt="AgroMentor" className="relative w-[9rem] md:w-[12rem] lg:w-[13.5rem] drop-shadow-2xl" src={heroLogo.url} />
+            <img alt="AgroMentor" className="relative w-[9rem] md:w-[12rem] lg:w-[13.5rem] drop-shadow-2xl" src={heroLogo} />
           </div>
         </motion.div>
 
